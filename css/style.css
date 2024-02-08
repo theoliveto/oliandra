@@ -1,0 +1,189 @@
+/* Layout Global */
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: /*url(../img/fundo.png),*/
+                url(../img/ruido.png),
+                linear-gradient(30deg, #F9E2B4, #9AFF9D);
+    background-attachment: fixed;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+}
+
+/* Cabeçalho */
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9BF0E1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+#home i {
+    color: #565656;
+}
+
+#home p {
+    color: #565656;
+    font-size: 22px;
+}
+
+/* Capa */
+.capa {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #565656;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -ms-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-carousel {
+    background: #A36C35;
+}
+
+.btn-carousel:hover {
+    background: #964B00;
+    color: #F1F1F1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 0%;
+}
+
+#galeria {
+    background-color: #565656;
+    padding: 50px;
+}
+
+#galeria h1 {
+    color: #F1F1F1;
+    margin-bottom: 0px;
+}
+
+/* Conteúdos */
+#casal {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#casal h2 {
+    color: #964B00;
+}
+
+#casal h3 {
+    color: #A36C35;
+}
+
+.albuns img {
+    border-radius: 20px;
+}
+
+#playlist {
+    background: #A36C35;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#playlist h2 {
+    color: #F1F1F1;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* Recursos */
+#fornecedores {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#fornecedores h2 {
+    color: #964B00;
+}
+
+#fornecedores h3 {
+    color: #565656;
+}
+
+#fornecedores h4 {
+    color: #a36c35;
+}
+
+/* Mapas */
+#mapas {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative; 
+}
+
+#mapas iframe {
+    margin-top: 10px;
+}
+
+#mapas h3 {
+    color: #964B00;
+}
+
+/*#mapas h2 {
+    text-align: center;
+}*/
+
+/* Rodapé */
+footer {
+    background: #000;
+    padding-top: 15px;
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+    color: #F1F1F1;
+}
+
+#carousel-forn img {
+    border-radius: 50%;
+}
